@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar{
+    border: 1px solid #000;
+    text-align: center;
+}
+
+
+.container{
+    width: 90%;
+    max-width: 1150px;
+    margin: auto;
+}
+
+.top-title{
+    padding: 20px 5px;
+    margin-top: 10px;
+    border-bottom: 1px solid #B8B8B8;
+}
+
+.content{
+    width: 70%;
+    margin: auto;
+    margin-top: 50px;
+
+}
+
+.profile-pic-box{
+    background: #fff;
+    box-shadow: 0 0 5px 1px #d8d8d8;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: 180px;
+}
+
+.img-text{
+    text-align: center;
+    font-size: 14px;
+    color: #909099;
+    position: absolute;
+    top: -30px;
+}
+
+.img-text .img-box{
+    padding: 3px;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.img-text img{
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.active-text{
+    position: absolute;
+    left: -20px;
+    top: 10px;
+    padding: 4px 10px;
+    border-radius: 20px;
+    background: #6FB327;
+    color: #fff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.active-text:hover{
+    background: #458303;
+}
+
+.login-detaile-box{
+    margin-top: 15px;
+    height: 110px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0 0 5px 1px #d8d8d8;
+    padding: 0 30px;
+    display: flex;
+}
+
+.login-text-box{
+    width: 95%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: auto;
+}
+
+
+.login-text-box p{
+    font-weight: 550;
+    color: #242424;
+}
+
+.zero-icon-box{
+    background: #6FB327;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login-text-box h6{
+    font-size: 18px;
+    color: #fff;
+}
+
+.admin-info-main{
+    margin-top: 50px;
+    background: #fff;
+    box-shadow: 0 0 5px 1px #d8d8d8;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.admin-info{
+    position: relative;
+}
+
+.admin-text-1, .admin-text-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 90%;
+}
+
+.admin-text{
+    margin-top: 25px;
+}
+
+.admin-text h6{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #242424;
+}
+
+.admin-text p{
+    font-size: 12px;
+    color: #909099;
+}
+
+.info-edit-icon-box{
+    display: inline;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.info-edit-icon-box i{
+    font-size: 30px;
+    color: #6FB327;
+    transition: 0.5s;
+}
+
+.info-edit-icon-box i:hover{
+    color: #458303;
+}
+
+.data-visibility-main{
+    margin-top: 20px;
+}
+
+.visibility-top{
+    font-size: 12px;
+    color: #909099;
+    margin-bottom: 10px;
+}
+
+.visibility-top h6{
+    font-size: 14px;
+    margin-bottom: 5px;
+    color: #242424;
+}
+
+.visibility-profile-main{
+    display: inline-block;
+    padding: 30px 50px;
+    background: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px 1px #d8d8d8;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.visibility-profile{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.visibility-profile p{
+    font-size: 14px;
+    font-weight: 550;
+    color: #242424;
+}
+
+.visibility-profile img{
+    margin-bottom: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.data-visibility-main{
+    margin-bottom: 100px;
+}
+
+
+footer{
+    margin-top: 20px;
+    border-top: 1px solid #B6B6B6;
+    background: transparent;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-height: 1150px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+.footer p{
+    margin: 0 !important;
+    padding: 24px;
+    color: #6A6A6A;
+}
+
+.footer .right-box p a{
+    color: #6A6A6A;
+    transform: 0.5s;
+}
+
+.footer .right-box p a:hover{
+    color: #6FB327;
+}
+
+@media only screen and (max-width: 600px) {
+    .content{
+        width: 100%;
+    }
+
+    .admin-text-1, .admin-text-2{
+        display: block;
+    }
+
+    .visibility-profile-main{
+        width: 90%;
+        display: block;
+        margin: 30px auto 0;
+    }
+
+    .visibility-profile img{
+        width: 100px;
+        height: 100px;
+    }
+
+}

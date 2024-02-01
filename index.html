@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Font Awesome -->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Bootstrap -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+    <title>Bytepaper</title>
+    <link rel="stylesheet" href="/css/style.css">
+</head> 
+<body>
+    
+    <div class="nav-main">
+        <div class="navbar">
+            <div class="left-nav">
+                <div class="logo-box">
+                    <img src="/img/logo.png" alt="">
+                </div>
+    
+                <div class="nav-links" id="navLinks">
+                    <a href="#" class="dropbtn" onmouseover="showNav()" onmouseleave="hideNav()">Whatsapp Solutions &nbsp;<i class="fa-solid fa-chevron-down"></i></a>
+                    <a href="#">Contact</a>
+                </div>
+            </div>
+    
+            <div class="right-nav">
+                <a href="#" class="login-btn">LOGIN</a>
+            </div>
+
+            <i class="fa-solid fa-bars" id="barBtn" onclick="phoneShow()"></i>
+
+            <i class="fa-solid fa-xmark" id="xBtn" onclick="phoneHide()"></i>
+        </div>
+
+        <div class="phone-nav" id="phoneNav">
+            <div class="phone-nav-link">
+                <ul>
+                    <li>
+                        <a href="#">Whatsapp Solutions </a>
+                    </li>
+                    <li>
+                        <a href="#">Contact </a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="phone-login-box">
+                <a href="#" class="phone-login"><p>LOGIN</p></a>
+            </div>
+        </div>
+
+        <div class="nav-hidden" id="navHidden" onmouseover="showNav()" onmouseleave="hideNav()">
+            <div class="hidden-items">
+                <div class="items-box">
+                    <div class="connect-box">
+                        <h6><i class="fa-solid fa-bullhorn"></i> Connect</h6>
+                        <ul>
+                            <li><a href="# "> - Broadcast Message </a></li>
+                            <li><a href="# "> - Conversational Chatbots </a></li>
+                            <li><a href="# "> - Team Shared Inbox </a></li>
+                            <li><a href="# "> - Pricing </a></li>
+                        </ul>
+                    </div>
+
+                    <div class="catalog-box">
+                        <h6><i class="fa-solid fa-cube"></i> Catalogue</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Navbar End -->
+
+    <div class="hero-section-main">
+        <div class="hero-section">
+            <div class="hero-left">
+                <div class="hero-left-items">
+                    <h6>BYTEPAPER FOR BUSINESSES</h6>
+
+                <h1>Accelerate business growth with Bytepaper</h1>
+
+                <p>Bytepaper applications can automate sales, marketing and support processes. Increase your team’s productivity and reduce manual efforts with our easy-to-use applications.</p>
+
+                <div class="hero-btn-box">
+                    <a href="#" class="hero-btn">START 7-DAY FREE TRIAL</a>
+                    <a href="#" class="hero-btn-2">SCHEDULE LIVE DEMO</a>
+                </div>
+
+                </div>
+            </div>
+
+            <div class="hero-right">
+                <div class="img-box">
+                    <img src="/img/hero-img.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Hero Section End-->
+
+    <div class="info-section-main">
+
+        <div class="info-section">
+            <div class="info-top-section">
+                <div class="info-left">
+
+                    <div class="info-left-center">
+                        <div class="w-icon-box">
+                        <img src="/img/logos_whatsapp-icon.png" alt="">
+                    </div>
+
+                    <h1>WhatsApp Cloud APIs integrated with tools you need for automation</h1>
+
+                    <p>
+                        Turn your WhatsApp into a successful sales and support channel. Reach out to more customers and provide them with a great service experience.
+                    </p>
+                    </div>
+                    
+                </div>
+
+
+    
+                <div class="info-right">
+
+                    <div class="right-info-box">
+                        <div class="w-info-box">
+                            <div class="w-info-img-box">
+                                <img src="/img/logos_telegram.png" alt="">
+                            </div>
+    
+                            <div class="w-info-box-text">
+                                <div class="w-info-head-box">
+                                    <h5>Reach out to customer in WhatsApp</h5> <a href="#" class="chat-btn">Chat tools</a>
+                                </div>
+                                <p>Engage with customers in real time on WhatsApp, automate interactions using chatbots, and reach a wider audience through targeted broadcast messages.</p>
+                                <a href="#">Explore Connect</a>
+                            </div>
+                        </div>
+
+                        <div class="w-info-box">
+                            <div class="w-info-img-box">
+                                <img src="/img/fa-solid_funnel-dollar.png" alt="">
+                            </div>
+    
+                            <div class="w-info-box-text">
+                                <div class="w-info-head-box">
+                                    <h5>WhatsApp integrated Sales CRM</h5>
+                                </div>
+                                <p>Leverage your WhatsApp Channel to capture new leads. Capture and engage leads to move them further into the deals pipeline.</p>
+                                <a href="#">Explore Connect</a>
+                            </div>
+                        </div>
+
+                        <div class="w-info-box">
+                            <div class="w-info-img-box">
+                                <img src="/img/simple-line-icons_earphones-alt.png" alt="">
+                            </div>
+    
+                            <div class="w-info-box-text">
+                                <div class="w-info-head-box">
+                                    <h5>WhatsApp integrated Support Helpdesk</h5>
+                                </div>
+                                <p>Provide prompt and personalized support directly through WhatsApp. A powerful solution for efficient customer support and issue resolution.</p>
+                                <a href="#">Explore Connect</a>
+                            </div>
+                        </div>
+
+                        <div class="w-info-box">
+                            <div class="w-info-img-box">
+                                <img src="/img/simple-line-icons_earphones-alt.png" alt="">
+                            </div>
+    
+                            <div class="w-info-box-text">
+                                <div class="w-info-head-box">
+                                    <h5>Sell on WhatsApp with Catalog</h5>
+                                </div>
+                                <p>Showcase and sell your products on WhatsApp with a catalogue seamlessly. Enable customers to browse, inquire, and make purchases directly within the chat.</p>
+                                <a href="#">Explore Connect</a>
+                            </div>
+                        </div>
+
+
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <div class="why-section">
+            <div class="why-info">
+                <h5>Why Bytepaper?</h5>
+
+            <h1>Bytepaper's New Version with integrated WhatsApp to fulfill your business needs</h1>
+
+            <p class="why-p">Get the benefits of business tools integrated with WhatsApp through Cloud APIs. With Bytepaper, you just pay for the platform as WhatsApp APIs are free of cost.</p>
+            </div>
+
+            <div class="why-icon-box">
+                <div class="money-box">
+                    <div class="money-img-box">
+                        <img src="/img/fa_money.png" alt="">
+                        <h5>Pay for what you use</h5>
+                        <p>No WhatsApp API Rental, only Platform charges are levied.</p>
+                    </div>
+                </div>
+                <div class="money-box">
+                    <div class="money-img-box">
+                        <img src="/img/fa-2.png" alt="">
+                        <h5>Onboarding & support</h5>
+                        <p>Get our team’s support to setup WhatsApp Cloud APIs.</p>
+                    </div>
+                </div>
+                <div class="money-box">
+                    <div class="money-img-box">
+                        <img src="/img/fa-3.png" alt="">
+                        <h5>For businesses of all sizes</h5>
+                        <p>Small and large businesses can use Bytepaper</p>
+                    </div>
+                </div>
+                <div class="money-box">
+                    <div class="money-img-box">
+                        <img src="/img/fa-4.png" alt="">
+                        <h5>Easy to use apps</h5>
+                        <p>An interface that your team will find very easy to use</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 2 End-->
+
+
+    <!--Section 3-->
+
+    <div class="leads-section-main">
+        <div class="leads-section">
+            <div class="left-leads">
+                <div class="left-leads-img">
+                    <img src="/img/sec-3-left.png" alt="">
+                </div>
+            </div>
+
+            <div class="right-leads">
+                <div class="right-leads-text-box">
+                    <h1>
+                        Capture leads directly from Facebook's CTWA ads
+                    </h1>
+
+                    <p>Run more engaging Facebook Ads and capture results inside the Bytepaper Chat Platform. Set chatbot triggers according to your ad that is ready to engage the leads with guided chat options.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 4-->
+
+    <div class="section-4">
+        <div class="notiify-section">
+            <div class="notify-left">
+                <div class="notify-text-box">
+                    <h1>Notify your customers on WhatsApp</h1>
+                    <p>Have a workflow that requires notification delivery to customers? Send notifications on WhatsApp with Automated chatbots and generate engagement.</p>
+                </div>
+            </div>
+
+            <div class="notify-right">
+                <div class="notify-right-img-box">
+                    <img src="/img/sec-4-right.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Section 5-->
+
+    <div class="section-5">
+        <div class="industry-btn-box">
+            <div class="industry-left">
+                <h2>
+                    Industries we serve in!
+                </h2>
+
+                <p>We are covering processes from Pre-sales to Post-Sales</p>
+            </div>
+
+            <div class="industry-right">
+                <div class="industry-btn">
+                    <div class="indus-btn-box">
+                        <button class="light-red">Ecommerce</button>
+                        <button class="light-green">Healthcare</button>
+                        <button class="light-yellow">Manufacturing</button>
+                        <button class="light-green">Trading</button>
+                        <button>Realstate</button>
+                        <button class="travel-btn">Travel</button>
+                        <button class="light-yellow">Education/Institutes</button>
+                        <button>Retail</button>
+                        <button class="light-green travel-btn">SaaS</button>
+                        <button>Immigration</button>
+                        <button class="light-red">Home services</button>
+                        <button class="light-green">Consultation</button>
+                        <button class="light-red">IT Services</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="byte-apps-main">
+        <div class="byte-apps">
+            <div class="byte-apps-left">
+                <div class="byte-apps-left-box">
+                    <div class="byte-img-box">
+                        <img src="/img/fa-5.png" alt="">
+                    </div>
+    
+                    <h1>
+                        Bytepaper Apps
+                    </h1>
+    
+                    <p>Access the famous previous versions of Bytepaper 
+                        applications. Track lead conversions, your team’s 
+                        performance, customer support and much more.</p>
+                    <a href="#">Get Started</a>
+                </div>
+            </div>
+
+            <div class="byte-apps-right">
+                <div class="byte-apps-right-box">
+                    <div class="byte-crm-box">
+                        <img src="/img/Vector.png" alt="">
+                        <h5>Sales CRM</h5>
+                        <p>Simple yet powerful CRM for 
+                            businesses who want to 
+                            manage leads, deals and 
+                            customers.</p>
+                    </div>
+                    <div class="byte-crm-box">
+                        <img src="/img/Vector.png" alt="">
+                        <h5>Quotations + CRM</h5>
+                        <p>Followup with leads, create 
+                            quotations, convert to 
+                            customers and raise invoices.</p>
+                    </div>
+                    <div class="byte-crm-box">
+                        <img src="/img/Vector.png" alt="">
+                        <h5>Orders</h5>
+                        <p>Get CRM features integrated 
+                            with the order tracking 
+                            system. Track order from 
+                            generation to completion.</p>
+                    </div>
+                    <div class="byte-crm-box">
+                        <img src="/img/Vector.png" alt="">
+                        <h5>Services</h5>
+                        <p>Get CRM integrated with 
+                            support to convert the end-to-end process. Get your 
+                            sales and support teams in 
+                            one place.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Brand Partners -->
+
+    <div class="brand-partner-main">
+        <div class="brand-partner">
+            <div class="partner-img-box">
+                <h6>TRUSTED BY GROWING BUSINESSES</h6>
+            </div>
+            <div class="partner-img-box">
+                <img src="/img/Tata-Nexarc.png" alt="">
+            </div>
+            <div class="partner-img-box">
+                <img src="/img/Group 3.png" alt="">
+            </div>
+            <div class="partner-img-box">
+                <img src="/img/Group 4.png" alt="">
+            </div>
+            <div class="partner-img-box">
+                <img src="/img/Group 6.png" alt="">
+            </div>
+            <div class="partner-img-box">
+                <img src="/img/Group 5.png" alt="">
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Footer Contents -->
+    
+    <footer>
+        <div class="footer-box">
+            <div class="footer-top-items">
+                <h1>Take your business to a whole 
+                    new level</h1>
+                <p>Let s discuss your requirements</p>
+
+                <a href="#">CONTACT US</a>
+            </div>
+
+            <div class="footer-links-main">
+                <div class="footer-links">
+                    <div class="footer-logo-box footer-links-boxes">
+                        <div class="footer-logo-img-box">
+                            <img src="/img/Bytepaper-footer 1.png" alt="">
+                        </div>
+
+                        <p class="footer-email-link"><a href="#"><i class="fa-solid fa-envelope"></i> info@bytepaper.com</a></p>
+
+                        <div class="footer-login-btn">
+                            <a href="#">BYTEPAPER CRM LOGIN</a>
+                        </div>
+
+                        <div class="footer-connect-btn">
+                            <a href="#">CONNECT LOGIN</a>
+                        </div>
+                    </div>
+
+
+
+                    <div class="footer-product-box footer-links-boxes">
+                        <h6>Products</h6>
+                            <a href="#">Connect</a>
+                            <a href="#">Catalog</a>
+                    </div>
+
+                    <div class="footer-features-box footer-links-boxes">
+                        <h6>Features</h6>
+                            <a href="#">No-Code ChatBot</a>
+                            <a href="#">Shared Team Inbox</a>
+                            <a href="#">Shared Team Inbox</a>
+                    </div>
+
+                    <div class="footer-more-box footer-links-boxes">
+                        <h6>More</h6>
+                            <a href="#">Book a demo</a>
+                            <a href="#">Blog</a>
+                            <a href="#">Contact</a>
+                    </div>
+
+
+                </div>
+            </div>
+
+            <div class="copyright-box">
+                <p>Bytepaper ©2023-24 All Rights Reserved | <a href="#">Terms & Conditions</a> | <a href="#">Privacy Policy</a></p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+    <!-- Javascript -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="/js/script.js"></script>
+
+
+    <script>
+        const navHidden = document.getElementById("navHidden");
+
+            function showNav(){
+                navHidden.style.display = "block";
+            }
+
+            function hideNav(){
+                navHidden.style.display = "none";
+            }
+    </script>
+
+
+    <script>
+        const phoneNav = document.getElementById("phoneNav");
+        const barBtn = document.getElementById("barBtn");
+        const xBtn = document.getElementById("xBtn");
+
+        function phoneShow(){
+            phoneNav.style.height = "100vh";
+            barBtn.style.display = "none";
+            xBtn.style.display = "block";
+        }
+        
+        function phoneHide(){
+            phoneNav.style.height = "0px";
+            barBtn.style.display = "block";
+            xBtn.style.display = "none";
+
+        }
+
+    </script>
+
+</body>
+</html>
