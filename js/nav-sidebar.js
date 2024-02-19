@@ -219,3 +219,5 @@ const profileHiddenBox =  document.getElementById("profileHiddenBox");
             navPlusHidden.style.display = "none";
         }
     }
+
+
